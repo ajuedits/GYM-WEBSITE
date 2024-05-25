@@ -38,7 +38,7 @@ router.post("/send/mail", async (req, res, next) => {
     });
     res.status(200).json({
       success: true,
-      message: "Message Sent Successfully.",
+      message: "Your Message Was Sent Successfully.",
     });
   } catch (error) {
     res.status(500).json({
